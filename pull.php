@@ -1,0 +1,2 @@
+<?php shell_exec( 'cd <repo-directory>; git reset --hard origin/master; git clean -d -f; git pull https://gitlab-ci-token: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
+@gitlab.com/<your-repo-url>.git master' ); ?>
