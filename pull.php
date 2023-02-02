@@ -1,8 +1,5 @@
 <?php 
 
-$shellExec = shell_exec( 'cd C:\inetpub\wwwroot && git reset --hard HEAD && git pull' ); 
-
-var_dump($shellExec);
-
+echo shell_exec('cd C:\inetpub\wwwroot && git config --global --add safe.directory C:/inetpub/wwwroot && git status 2>&1');
 
 ?>
